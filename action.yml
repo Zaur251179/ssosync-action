@@ -1,0 +1,10 @@
+# action.yml
+name: 'ssosync'
+author: DNX Solutions
+description: 'Automatically synchronize your SSO users and groups, eliminating the need for manual creation and upkeep.'
+branding:
+  icon: 'activity'
+  color: 'yellow'
+runs:
+  using: 'docker'
+  image: 'docker://dnxsolutions/ssosync:v1.0.0-dnx1'
